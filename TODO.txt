@@ -1,0 +1,74 @@
+# Spotify Playlist Generator (FRONT END WEB INTENSIVE)
+A webapp that let's you quickly fill out simple parameters to make a call to "get recommendations based on seeds"
+Takes the recommended list of tracks (URI's) to:
+
+#API FUNCTIONALITY
+
+- Create a Playlist
+    - Name
+    - Public/Private
+    - Collaborative/Non-Collaborative
+    - Default: "Playlist curated by -app name-"
+- Get Recommendations Based on Seeds
+    - Query Parameters:
+    - Limit: How many songs do you want (1-100)?
+    - Genre: Select Genre(s)
+        - Checkbox? Search? etc
+    - Tuneable Track Attributes ("Lets fine tune your playlist...")
+        - Tempo: Are you feeling slow or fast?
+        - Instrumentalness: Do you want lyrics or no lyrics?
+        - Valence: Are you happy or sad?
+- Add Tracks to a Playlist
+    - Request: playlist_id (taken from generated above)
+    - Header: Authorization/Content-Type
+    - Query Parameters: URI's
+
+#USER EXPERIENCE
+
+- Homepage (1):
+    - Minimal explanation, box centered.
+        - CTA to begin
+            - CTA leads to UAUTH
+
+- Query (2-3):
+    - Create a Playlist
+        - Input Field
+            - Playlist Name (100 Char?)
+        - Switches
+            - Public/Private
+            - Collab/No-Collab
+
+    - Seeds
+        - Genre (Up to 5)
+            - Radio Buttons
+        - Slider
+            - # of songs
+            - Tempo
+            - Instrumentalness
+            - Valence
+
+- Result Page (4):
+    - Gradient BG (based on valence)
+    - Display Congratulations
+    - Embedded Player
+    - Share Options
+    - Restart Option
+
+#USER JOURNEY
+    - I go to the page
+    - I see the title/description
+    - I press begin to authorize
+    - I authorize my spotify account
+    - I see the playlist boarding page
+    - I set my parameters for the playlist
+    - I am sent to a resulting page
+    - I can share, restart, or leave
+
+#TECH STACK
+    - Node.js
+    - PUG
+    - HTML/CSS/JS
+    - Materialize.css
+
+#RESEARCH
+    - Spotify Brand Guidelines
