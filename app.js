@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 var createError = require('http-errors');
 var express = require('express');
 var path = require('path');
@@ -25,7 +27,7 @@ var querystring = require('querystring');
 var cookieParser = require('cookie-parser');
 
 var client_id = 'a4507f0cbf964edcad5817404b579383'; // Your client id
-var client_secret = '3c56677eed784a0cb0b737a149dd34a6'; // Your secret
+var client_secret = 'b93c0b2475c945219b33a7ec831662f3'; // Your secret
 var redirect_uri = 'http://localhost:5000/callback'; // Your redirect uri
 
 /**
