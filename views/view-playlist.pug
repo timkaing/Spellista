@@ -6,12 +6,14 @@ block content
     div.container(style="text-align: center;")
       div.row
         div.col.s12
-          h1(style="font-weight:700; font-size: 98px; letter-spacing:-5px") Your Curated Playlist
-          iframe(src="https://open.spotify.com/embed/user/122242031/playlist/7oWVCIHUKZRD8LheoSicS2", width="300", height="380", frameborder="0", allowtransparency="true", allow="encrypted-media", style="margin-top: 50px;")
+          h1.congratz(style="font-weight:700; font-size: 98px; letter-spacing:-5px") Your Curated Playlist
+          iframe(src="https://open.spotify.com/embed/user/122242031/playlist/7oWVCIHUKZRD8LheoSicS2", width="300", height="380", frameborder="0", allowtransparency="true", allow="encrypted-media", style="margin-top: 50px;", onxlxoad="$(this).fadeIn()")
           br
-          a.waves-effect.waves-light.btn(style="background-color: #1DB954; letter-spacing: 3px; border-radius:20px; margin-top: 50px;") RESTART
+          a.waves-effect.waves-light.btn(href="/", style="background-color: #1DB954; letter-spacing: 3px; border-radius:20px; margin-top: 50px;") RESTART
 
   footer.page-footer(style="background-color: black;")
     div.footer-copyright(style="background-color: black;")
       div.container(style="background-color: black;") Developed by Tim Kaing
         a.text-lighten-4.right(href="https://developer.spotify.com/documentation/web-api/" style="color: #1DB954; font-weight: 500;") Powered by Spotify
+
+  script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js")

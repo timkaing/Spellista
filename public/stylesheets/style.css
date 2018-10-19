@@ -58,3 +58,25 @@ input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):
     border: #1DB954;
     background-color: #1DB954;
 }
+
+#login, #loggedin {
+        display: none;
+      }
+      .text-overflow {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 500px;
+      }
+
+@media screen and (max-width: 595px) {
+    .yolo {
+        font-size: 85px !important;
+    }
+}
+
+@media screen and (max-width: 745px) {
+    .congratz {
+        font-size: 55px !important;
+    }
+}
