@@ -1,8 +1,26 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    font: 14px 'Montserrat', sans-serif !important;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
 
 a {
-  color: #00B7FF;
+    color: #00B7FF;
+    font-famnily: 'Montserrat', sans-serif !important;
+    font-weight: 700;
+}
+
+main {
+    flex: 1 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
