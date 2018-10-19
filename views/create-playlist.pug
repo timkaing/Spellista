@@ -1,0 +1,35 @@
+extends layout
+
+block content
+
+  main
+    div.container(style="text-align: left;")
+      div.row
+        form.col.s12
+          h3 Create Your Playlist
+          div.row
+            div.input-field.col.s12
+              input(placeholder="Playlist Name" id="playlist_title" class="validate" type="text" style="color:#191414;" maxlength="100")
+              label(for="playlist_title")
+          div.row(style="display: flex; align-items: center;")
+            div.switch.col.s4.switches
+              p Private
+              label(style="display: flex;")
+                |No
+                input(type="checkbox")
+                span.lever
+                |Yes
+            div.switch.col.s4.switches
+              p Collaborate
+              label(style="display: flex;")
+                |No
+                input(type="checkbox")
+                span.lever
+                |Yes
+            div.col.s4
+              a.waves-effect.waves-light.btn.right(style="background-color: #1DB954; letter-spacing: 3px; border-radius:20px;margin-top:12px;") CREATE
+
+  footer.page-footer(style="background-color: black;")
+    div.footer-copyright(style="background-color: black;")
+      div.container(style="background-color: black;") Developed by Tim Kaing
+        a.text-lighten-4.right(href="https://developer.spotify.com/documentation/web-api/" style="color: #1DB954; font-weight: 500;") Powered by Spotify

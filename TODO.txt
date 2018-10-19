@@ -36,6 +36,8 @@ Takes the recommended list of tracks (URI's) to:
             - Playlist Name (100 Char?)
         - Switches
             - Public/Private
+                - If Public, Unlock Collab
+                - By Default, False
             - Collab/No-Collab
 
     - Seeds

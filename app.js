@@ -19,8 +19,27 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+//Index Page
 app.use('/', indexRouter);
-app.use('/users', usersRouter);
+
+//Create Playlist Page
+app.get('/create-playlist', function(req, res)
+{
+    res.render("create-playlist")
+});
+
+//Set the Mood Page
+app.get('/set-the-mood', function(req, res)
+{
+    res.render("set-the-mood")
+});
+
+//View Playlist Page
+app.get('/view-playlist', function(req, res)
+{
+    res.render("view-playlist")
+});
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
