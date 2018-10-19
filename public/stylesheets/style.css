@@ -46,3 +46,15 @@ input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):
 {
     color: red;
 }
+
+[type="checkbox"]:checked+span:not(.lever):before
+{
+    border: #1DB954;
+    background-color: #1DB954;
+}
+
+[type="checkbox"].filled-in:checked+span:not(.lever):after
+{
+    border: #1DB954;
+    background-color: #1DB954;
+}

@@ -3,12 +3,71 @@ extends layout
 block content
 
   main
-    div.container(style="text-align: center;")
+    div.container(style="text-align: left;")
       div.row
-        div.col.s12
-          h1(style="font-weight:700; font-size: 124px; letter-spacing:-5px") Spellista
-          h3 Discover a playlist based your mood.
-          a.waves-effect.waves-light.btn(style="background-color: #1DB954; letter-spacing: 3px; border-radius:20px; margin-top: 15px;") GET STARTED
+        form.col.s12
+          h3 Set The Mood
+          div.row
+            div.col.s12
+              p.col.s3
+                label
+                  input.filled-in.genres(type="checkbox")
+                  span Dance
+              p.col.s3
+                label
+                  input.filled-in.genres(type="checkbox")
+                  span Electronic
+              p.col.s3
+                label
+                  input.filled-in.genres(type="checkbox")
+                  span Indie
+              p.col.s3
+                label
+                  input.filled-in.genres(type="checkbox")
+                  span K-Pop
+
+          div.row
+            div.col.s12
+              p.col.s3
+                label
+                  input.filled-in.genres(type="checkbox")
+                  span Metal
+              p.col.s3
+                label
+                  input.filled-in.genres(type="checkbox")
+                  span Pop
+              p.col.s3
+                label
+                  input.filled-in.genres(type="checkbox")
+                  span RnB
+              p.col.s3
+                label
+                  input.filled-in.genres(type="checkbox")
+                  span Rock
+          div.row
+            div.col.s2
+              p Tempo
+            div.col.s10
+              p.range-field
+                label
+                  input#tempo(type="range", min="0", max="100")
+          div.row
+            div.col.s2
+              p Instrumentalness
+            div.col.s10
+              p.range-field
+                label
+                  input#tempo(type="range", min="0", max="100")
+          div.row
+            div.col.s2
+              p Valence
+            div.col.s10
+              p.range-field
+                label
+                  input#tempo(type="range", min="0", max="100")
+
+          div.row
+            a.waves-effect.waves-light.btn.right(style="background-color: #1DB954; letter-spacing: 3px; border-radius:20px;margin-top:12px;") GENERATE
 
   footer.page-footer(style="background-color: black;")
     div.footer-copyright(style="background-color: black;")
