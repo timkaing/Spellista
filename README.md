@@ -14,7 +14,7 @@ Visit the app [here](https://spellista.herokuapp.com)
 
 ## Introduction
 
-Spellista was a result of a week long hackathon at the school I attended. My goal was to develop my first webapp and learn more about Spotify's API.
+Spellista (Swedish for playlist) was a result of a week long hackathon at the school I attended. My goal was to develop my first webapp and learn more about Spotify's API.
 
 ## Features
 
