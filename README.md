@@ -12,20 +12,23 @@ Visit the app [here](https://spellista.herokuapp.com)
 - [Contributing](#contributing)
 - [License](#license)
 
-## Motivation
+## Introduction
 
-Created during a week long intensive, I wanted to learn more about Spotify's API and how I could use it to curate a personalized playlist.
+Spellista was a result of a week long hackathon at the school I attended. My goal was to develop my first webapp and learn more about Spotify's API.
 
-## Screenshots
+## Features
 
-Coming Soon
+- Create a playlist
+- Calculate mood
+- Populate playlist
+- Share playlist
 
 ## Tech/Framework Used
 
 - Node.js
 - Express
 - Spotify API
-- Pug
+- Materialize
 
 ## API Reference
 
