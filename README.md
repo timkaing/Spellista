@@ -1,6 +1,6 @@
 # Spellista
 
-Spellista is a webapp that generates a Spotify playlist based on a user's mood
+Spellista (Swedish for playlist) is a webapp that generates a Spotify playlist based on a user's mood
 
 Visit the app [here](https://spellista.herokuapp.com)
 
@@ -14,7 +14,7 @@ Visit the app [here](https://spellista.herokuapp.com)
 
 ## Introduction
 
-Spellista (Swedish for playlist) was a result of a week long hackathon at the school I attended. My goal was to develop my first webapp and learn more about Spotify's API.
+Spellista was a result of a week long hackathon at the school I attended. My goal was to develop my first webapp and learn more about Spotify's API.
 
 ## Features
 
